@@ -12,6 +12,10 @@ RUN apt-get update && apt-get install -y \
 RUN pecl install xdebug \
     && docker-php-ext-enable xdebug
 
+# No Dockerfile do container PHP
+RUN pecl install redis \
+    && docker-php-ext-enable redis
+
 # Configuração do Xdebug
 COPY docker/php/xdebug.ini /usr/local/etc/php/conf.d/docker-php-ext-xdebug.ini
 

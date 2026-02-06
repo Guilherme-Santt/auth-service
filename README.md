@@ -12,6 +12,7 @@ Siga estas etapas para colocar o projeto de pé:
 
 2. Ajuste o docker-composeyml
     Antes de rodar o container, precisa verificar as configurações do banco de dados em:
+    
     <img width="512" height="258" alt="image" src="https://github.com/user-attachments/assets/e50bbd54-502a-403a-a21b-fcfb1aaaf2c3" />
 
     
@@ -21,7 +22,7 @@ Siga estas etapas para colocar o projeto de pé:
     - DB_HOST: Geralmente db ou mysql (o nome do serviço no docker-compose).
     - REDIS_HOST: Geralmente redis.
     
-   <img width="207" height="141" alt="image" src="https://github.com/user-attachments/assets/2ff2e6de-3de4-455a-ae62-bc6fc75c2030" />
+   <img width="358" height="166" alt="image" src="https://github.com/user-attachments/assets/c5160967-d091-41ff-82af-f2528025d9cb" />
 
 
 3. Subir os Containers
